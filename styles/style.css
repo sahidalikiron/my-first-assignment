@@ -3,12 +3,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 
+*{
+    margin: 0;
+}
+
 .body {
     max-width: 1320px;
     margin-left: auto;
     margin-right: auto;
 }
 
+/* Banner section styles */
 .banner {
     background-image: url('../images/Banner\ Image.png');
     width: 100%;
@@ -20,7 +25,7 @@
 .banner-title {
     color: white;
     text-align: center;
-    padding-top: 140px;
+    padding-top: 190px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     border-radius: 15px;
 }
@@ -38,9 +43,13 @@
     margin-top: 10px;
 }
 
+/* Category section styles */
 .categories-title {
     text-align: center;
     margin-top: 120px;
+}
+.categories-title img{
+    margin-top: 48px;
 }
 
 .title1 {
@@ -56,7 +65,7 @@
     font-size: 24px;
     font-weight: 500;
     font-family: Inter;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 0;
 
 }
@@ -69,8 +78,9 @@
     margin-top: 16px;
 }
 
+/* Welcome section styles */
 .welcome-content {
-    padding: 120px;
+    padding: 130px;
 }
 
 .welcome {
@@ -112,6 +122,7 @@
 
 .img {
     width: 50%;
+    padding-top: 60px;
 
 }
 
@@ -123,6 +134,8 @@
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 }
 
+
+/* Portfolio section styles */
 .image1 {
     display: flex;
     justify-content: space-between;
@@ -176,6 +189,8 @@
     margin-top: 120px;
 }
 
+
+/* Subscribe section styles */
 .subscribe {
     margin-top: 120px;
     background-color: rgba(255, 0, 0, 0.05);
@@ -245,6 +260,7 @@ input {
 }
 
 
+/* Offer section styles */
 .offer {
     margin-top: 120px;
     display: grid;
@@ -257,7 +273,7 @@ input {
 }
 
 .offer-space2 {
-    padding-top: 50px;
+    padding-top: 80px;
     padding-left: 100px;
 }
 
@@ -302,7 +318,7 @@ input {
     margin-top: 16px;
 }
 .offer-space2 img{
-    margin-top: 20px;
+    margin-top: 45px;
 }
 
 .offer-img {
@@ -317,6 +333,7 @@ input {
 }
 
 
+/* Footer section styles */
 .footer {
     margin-top: 120px;
     background-color: #070211;
@@ -330,20 +347,21 @@ input {
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
-    padding-top: 80px;
+    padding-top: 100px;
+    padding-bottom: 30px;
     padding-right: 140px;
     padding-left: 140px;
 }
 .phone-web{
     padding-right: 100px;
-    line-height: 5px;
-    padding-top: 8px;
+    line-height: 0px;
+    
     
 }
 
 .hr {
     height: 1px;
-    width: 1220px;
+    width: 1235px;
     background-color: gray;
     margin-left: 140px;
     margin-right: 140px;
@@ -355,7 +373,7 @@ input {
     
 }
 .gap{
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 
@@ -367,17 +385,20 @@ input {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    padding-bottom: 80px;
+    padding-top: 30px;
+    padding-bottom: 100px;
     padding-right: 140px;
     padding-left: 140px;
 }
 .icon{
+    line-height: 40px;
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 .icon i{
-    margin-top: 15px;
+    margin-top: 10px;
 }
+
 
 
 
