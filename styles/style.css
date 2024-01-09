@@ -140,8 +140,15 @@
     display: flex;
     justify-content: space-between;
     border-radius: 15px;
-
 }
+
+.hover img:hover {
+    cursor: pointer;
+    opacity: 0.2;
+}
+
+
+
 
 .image2 {
     display: flex;
