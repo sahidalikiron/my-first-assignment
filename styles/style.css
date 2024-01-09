@@ -106,23 +106,24 @@
     font-weight: 400;
     margin-top: 24px;
     margin-bottom: 0;
+    line-height: 35px;
 }
 
 .btn {
     color: white;
-    font-family: Inert;
+    font-family: Inter;
     font-size: 20px;
     font-weight: 700;
     margin-top: 48px;
     text-transform: uppercase;
     background-color: transparent;
     border: none;
-    padding-left: 20px;
+    padding-left: 35px;
 }
 
 .img {
     width: 50%;
-    padding-top: 60px;
+    padding-top: 30px;
 
 }
 
@@ -384,8 +385,7 @@ input {
 }
 
 
-.unsubscribe{
-    justify-content: space-between;
+.unsubscribe {
     display: flex;
     justify-content: space-between;
     color: white;
@@ -396,6 +396,15 @@ input {
     padding-bottom: 100px;
     padding-right: 140px;
     padding-left: 140px;
+
+}
+.unsubscribe button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
 }
 .icon{
     line-height: 40px;
